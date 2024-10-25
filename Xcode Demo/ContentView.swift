@@ -9,6 +9,10 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
+        ZStack{
+            Color(.systemMint)
+                .ignoresSafeArea()
+        }
         VStack(alignment: .leading, spacing: 20.0){
             Image("niagarafalls")
                 .resizable()
